@@ -3,6 +3,8 @@
 
 スライド: https://docs.google.com/presentation/d/10zc4hrgcSzyKDnksOIhBOczS3WRt0BXy9Q1kujkWxGI/edit?usp=sharing
 
+## 目次
+
  - [ubuntu環境セットアップ](docs/001_setup.md)
  - [ファイル操作練習問題 1](docs/002_command-file-operation.md)
  - [ファイル操作練習問題 2](docs/003_command-file-operation.md)
