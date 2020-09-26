@@ -73,6 +73,6 @@ $ cat append.txt # ファイルの中身を表示
 ## 10. _rightで終わるテキストだけ一覧で表示
 
 ```console
-ls -ltr *_right
+$ ls -ltr *_right
 ```
 
