@@ -39,13 +39,17 @@ $ cp -p wagahai.txt wagahai.copy.txt
 
 ## 9. wagahai.txt の3行目と6行目を削除して、diffをとる
 
-```
+```console
 $ diff wagahai.txt wagahai.copy.txt
 ```
 
-```
+```console
 $ diff -u wagahai.txt wagahai.copy.txt
 ```
 
 ## playground/find/srcディレクトリへのシンボリックリンクを作成
 
+```console
+$ ln -s playground/find/src src
+$ ls -ltr
+```
