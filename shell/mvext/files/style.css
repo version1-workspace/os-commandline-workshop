@@ -1,0 +1,16 @@
+
+.titlelogo {
+    position: fixed;
+}
+
+.container{
+    display: flex;/*　子要素を横並びにする　*/
+}
+
+.content{
+    overflow: scroll;/*要素をスクロール可能にする*/
+}
+
+.sidebar-sticky {
+    display: flex;
+}
