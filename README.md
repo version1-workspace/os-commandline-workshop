@@ -1,7 +1,7 @@
 
 # 20200927勉強会
 
-スライド: https://docs.google.com/presentation/d/10zc4hrgcSzyKDnksOIhBOczS3WRt0BXy9Q1kujkWxGI/edit?usp=sharing
+スライド: [リンク](https://docs.google.com/presentation/d/10zc4hrgcSzyKDnksOIhBOczS3WRt0BXy9Q1kujkWxGI/edit?usp=sharing)
 
 ## 目次
 
