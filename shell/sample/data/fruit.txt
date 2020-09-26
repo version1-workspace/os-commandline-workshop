@@ -1,0 +1,10 @@
+apple
+banana
+grape
+strawberry
+pineapple
+orange
+mango
+quei
+peach
+durian
