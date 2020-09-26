@@ -1,5 +1,7 @@
 
-# ファイル検索(vi/vim)
+# ファイル検索(find/grep)
+
+> *playground/findディレクトリで作業してください。*
 
 ## find
 

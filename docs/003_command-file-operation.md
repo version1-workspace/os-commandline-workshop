@@ -1,6 +1,8 @@
 
 # ファイル操作2
 
+> *playgroundディレクトリで作業してください。*
+
 
 ## 1. catコマンドでファイルの中をみてみる
 
@@ -44,3 +46,6 @@ diff wagahai.txt wagahai.copy.txt
 ```
 diff -u wagahai.txt wagahai.copy.txt
 ```
+
+## playground/find/srcディレクトリへのシンボリックリンクを作成
+
