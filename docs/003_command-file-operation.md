@@ -15,36 +15,36 @@
 ## 5. tailコマンドで下3行を表示
 
 ```console
-tail -3 lorem.txt
+$ tail -3 lorem.txt
 ```
 
 ## 6. headコマンド上3行を表示
 
 ```console
-head -3 lorem.txt
+$ head -3 lorem.txt
 ```
 
 
 ## 7. ファイルをリネームしてみる
 
 ```console
-mv lorem.txt wagahai.txt
+$ mv lorem.txt wagahai.txt
 ```
 
 ## 8. ファイルをコピーしてみる
 
 ```console
-cp -p wagahai.txt wagahai.copy.txt
+$ cp -p wagahai.txt wagahai.copy.txt
 ```
 
 ## 9. wagahai.txt の3行目と6行目を削除して、diffをとる
 
 ```
-diff wagahai.txt wagahai.copy.txt
+$ diff wagahai.txt wagahai.copy.txt
 ```
 
 ```
-diff -u wagahai.txt wagahai.copy.txt
+$ diff -u wagahai.txt wagahai.copy.txt
 ```
 
 ## playground/find/srcディレクトリへのシンボリックリンクを作成
