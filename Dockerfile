@@ -1,7 +1,9 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y \
-    sudo iproute2 iputils-ping vim locales && \
+    openssh-server sudo iproute2 iputils-ping vim locales \
+    cron man net-tools&& \
+    unminimize && \
     locale-gen ja_JP.UTF-8 && \
     echo "export LANG=ja_JP.UTF-8" >> /etc/profile && \
     echo 'root:root' | chpasswd && \
