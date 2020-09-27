@@ -12,6 +12,10 @@ $ cat lorem.txt
 
 ## 2. rm でファイルを削除してみる
 
+```console
+$ rm hoge.txt
+```
+
 ## 4. rm でディレクトリを削除してみる
 
 ```console
@@ -79,5 +83,83 @@ $ ls -ltr
 | tr | 簡易的な置換 |
 | sed | 正規表現などを使った置換 |
 | wc | 文字列のバイトを数える |
-| paste | クリップボードにコピー |
 | xargs | 標準入力でわたされたテキストを順番に処理 |
+
+
+### cut
+
+```console
+$ echo '1 2 3 4 5' | cut -d' ' -f 2
+$ echo '1,2,3,4,5' | cut -d',' -f 4
+$ echo 'library' | cut -b 3-4
+```
+
+### sort
+
+```console
+$ cat << EOF | sort
+1
+3
+10
+22
+5
+44
+6
+EOF
+```
+
+```console
+$ cat << EOF | sort -n
+1
+3
+10
+22
+5
+44
+6
+EOF
+```
+
+### uniq
+
+```console
+$ cat << EOF | sort -n | uniq
+1
+3
+1
+5
+5
+2
+EOF
+```
+
+### tr
+
+```console
+$ echo 'すもももももももものうち' | tr 'ももも' 'ももも、'
+```
+
+```console
+$ echo '1@2@3@4@5@6' | tr '@' '\n'
+```
+### sed
+
+```console
+$ echo 'すもももももももものうち' | sed -e 's/ももも/ももも、/g'
+```
+
+### wc
+
+```console
+$ echo 'library' | wc -c
+```
+
+```console
+$ cat lorem.txt | wc -l
+```
+
+### xargs
+
+https://news.mynavi.jp/article/20180816-678553/
+
+
