@@ -23,6 +23,12 @@ $ : > null.txt
 $ mkdir test
 ```
 
+存在しないディレクトリを一気に作成する
+
+```console
+$ mkdir -p test/2020/09/27
+```
+
 ## 3. lsコマンドを叩いてみる
 
 ```console
@@ -47,6 +53,10 @@ $ ls -a
 
 ```console
 $ ls -1
+```
+
+```console
+$ ls -R
 ```
 
 ## 7. ファイルを三つつくってchmod で権限を変更してみる。
