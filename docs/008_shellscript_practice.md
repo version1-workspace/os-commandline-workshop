@@ -9,7 +9,13 @@
 
 ### 2. 引数の個数を表示するスクリプト
 
-### 3. 入力された時間帯によって, "Good Morning", "Good Afternoon", "Good Eveneing" を表示するスクリプト
+### 3. 入力された時間帯(0~24)によって, "Good Morning", "Good Afternoon", "Good Eveneing" を表示するスクリプト
+
+```
+3 ~ 12 => Good Morning
+12 ~ 18 => Good Afternoon
+18 ~ 3 => Good Evening
+```
 
 ### 4. 引数で渡された二つの数を足し算するスクリプト
 
@@ -35,5 +41,4 @@ files/ 配下の `*.png, *.jpeg, *.txt, *.pdf`ファイルなどをそれぞれ
 ### ステップ 3. 拡張子ごとのディレクトリを作成する
 
 ### ステップ 4. 拡張子ごとにファイルを移動する
-
 
