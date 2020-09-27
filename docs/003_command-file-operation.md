@@ -68,3 +68,16 @@ $ diff -u wagahai.txt wagahai.copy.txt
 $ ln -s playground/find/src src
 $ ls -ltr
 ```
+
+## 11. テキスト操作
+
+| コマンド　| |
+| ----- | ----- | 
+| cut | テキストの切り出し |
+| sort | ソート |
+| uniq | ユニークな文字列を呼び出す |
+| tr | 簡易的な置換 |
+| sed | 正規表現などを使った置換 |
+| wc | 文字列のバイトを数える |
+| paste | クリップボードにコピー |
+| xargs | 標準入力でわたされたテキストを順番に処理 |
