@@ -6,11 +6,17 @@
 
 ## 1. catコマンドでファイルの中をみてみる
 
+```console
+$ cat lorem.txt
+```
+
 ## 2. rm でファイルを削除してみる
 
-## 3. mkdirでディレクトリを作成してみる
-
 ## 4. rm でディレクトリを削除してみる
+
+```console
+$ rm -r [directory]
+```
 
 ## 5. tailコマンドで下3行を表示
 
@@ -25,17 +31,26 @@ $ head -3 lorem.txt
 ```
 
 
-## 7. ファイルをリネームしてみる
+## 7. ファイルをリネーム・移動してみる
 
 ```console
 $ mv lorem.txt wagahai.txt
 ```
 
-## 8. ファイルをコピーしてみる
+```console
+$ mv hoge.txt test/
+```
+
+## 8. ファイル・フォルダをコピーしてみる
 
 ```console
 $ cp -p wagahai.txt wagahai.copy.txt
 ```
+
+```console
+$ cp -pr test test_copy
+```
+
 
 ## 9. wagahai.txt の3行目と6行目を削除して、diffをとる
 
@@ -47,7 +62,7 @@ $ diff wagahai.txt wagahai.copy.txt
 $ diff -u wagahai.txt wagahai.copy.txt
 ```
 
-## playground/find/srcディレクトリへのシンボリックリンクを作成
+## 10. playground/find/srcディレクトリへのシンボリックリンクを作成
 
 ```console
 $ ln -s playground/find/src src
