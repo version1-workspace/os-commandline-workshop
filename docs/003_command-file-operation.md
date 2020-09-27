@@ -160,6 +160,8 @@ $ cat lorem.txt | wc -l
 
 ### xargs
 
+```console
+$ find src -name  '*B*' -a -type f  | xargs rm
+```
+
 https://news.mynavi.jp/article/20180816-678553/
-
-
